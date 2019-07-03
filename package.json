@@ -19,7 +19,9 @@
     "url": "git@github.com:brunch/sass-brunch.git"
   },
   "scripts": {
-    "test": "eslint index.js && mocha"
+    "test": "eslint index.js && mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "anymatch": "~2.0.0",
@@ -28,7 +30,8 @@
     "node-sass-globbing": "0.0.23",
     "postcss": "~6.0.17",
     "postcss-modules": "~1.1.0",
-    "progeny": "~0.11.0"
+    "progeny": "~0.11.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "chai": "~4.1.2",
@@ -38,5 +41,6 @@
   },
   "eslintConfig": {
     "extends": "brunch"
-  }
+  },
+  "snyk": true
 }
