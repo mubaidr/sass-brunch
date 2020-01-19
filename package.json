@@ -24,7 +24,7 @@
   "dependencies": {
     "anymatch": "~2.0.0",
     "micro-promisify": "~0.1.1",
-    "node-sass": "~4.5.3",
+    "node-sass": "~4.13.1",
     "node-sass-globbing": "0.0.23",
     "postcss": "~6.0.17",
     "postcss-modules": "~1.1.0",
